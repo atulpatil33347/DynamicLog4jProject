@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Create facility Form Test Cases"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.036">
+  <properties />
+  
+  
+            <testcase name="verifyFacilityCreateLayout" time="0.026" classname="com.sentinel.test.CreateFacilityTestSuite" />
+                <testcase name="verifyFacilityFormCreated" time="0.010" classname="com.sentinel.test.CreateFacilityTestSuite" />
+      
+</testsuite>

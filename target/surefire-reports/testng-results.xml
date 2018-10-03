@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="35" total="39" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Verified Page Title..<br>]]>
+    </line>
+    <line>
+      <![CDATA[Verified Page Favicon..<br>]]>
+    </line>
+    <line>
+      <![CDATA[Verified the 'Forgot Username/Password' Title . It is Displayed as - Forgot Username/Password<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4326" started-at="2018-10-03T07:02:33Z" finished-at="2018-10-03T07:02:37Z">
+    <groups>
+      <group name="Sprint1">
+        <method signature="SignUpTestSuite.verifyErrorMessages(java.lang.reflect.Method)[pri:2, instance:com.sentinel.test.SignUpTestSuite@2638011]" name="verifyErrorMessages" class="com.sentinel.test.SignUpTestSuite"/>
+        <method signature="SignUpTestSuite.verifyForgetUsernameOrPasswordPageElements()[pri:3, instance:com.sentinel.test.SignUpTestSuite@2638011]" name="verifyForgetUsernameOrPasswordPageElements" class="com.sentinel.test.SignUpTestSuite"/>
+        <method signature="SignUpTestSuite.verifyResendUserName()[pri:4, instance:com.sentinel.test.SignUpTestSuite@2638011]" name="verifyResendUserName" class="com.sentinel.test.SignUpTestSuite"/>
+        <method signature="SignUpTestSuite.verifySentinalSignUpPageLayout()[pri:1, instance:com.sentinel.test.SignUpTestSuite@2638011]" name="verifySentinalSignUpPageLayout" class="com.sentinel.test.SignUpTestSuite"/>
+      </group> <!-- Sprint1 -->
+    </groups>
+    <test name="Login Page test Cases" duration-ms="4263" started-at="2018-10-03T07:02:33Z" finished-at="2018-10-03T07:02:37Z">
+      <class name="com.sentinel.test.SignUpTestSuite">
+        <test-method status="PASS" signature="beofreClass()[pri:0, instance:com.sentinel.test.SignUpTestSuite@2638011]" name="beofreClass" is-config="true" duration-ms="1" started-at="2018-10-03T12:32:33Z" finished-at="2018-10-03T12:32:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beofreClass -->
+        <test-method status="PASS" signature="verifySentinalSignUpPageLayout()[pri:1, instance:com.sentinel.test.SignUpTestSuite@2638011]" name="verifySentinalSignUpPageLayout" duration-ms="512" started-at="2018-10-03T12:32:33Z" finished-at="2018-10-03T12:32:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verified Page Title..<br>]]>
+            </line>
+            <line>
+              <![CDATA[Verified Page Favicon..<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySentinalSignUpPageLayout -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.sentinel.test.SignUpTestSuite@2638011]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-10-03T12:32:33Z" finished-at="2018-10-03T12:32:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySentinalSignUpPageLayout status=SUCCESS method=SignUpTestSuite.verifySentinalSignUpPageLayout()[pri:1, instance:com.sentinel.test.SignUpTestSuite@2638011] output=Verified Page Title..<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="verifyErrorMessages(java.lang.reflect.Method)[pri:2, instance:com.sentinel.test.SignUpTestSuite@2638011]" name="verifyErrorMessages" duration-ms="2" started-at="2018-10-03T12:32:33Z" finished-at="2018-10-03T12:32:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sentinel.test.SignUpTestSuite.verifyErrorMessages(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessages -->
+        <test-method status="PASS" signature="verifyForgetUsernameOrPasswordPageElements()[pri:3, instance:com.sentinel.test.SignUpTestSuite@2638011]" name="verifyForgetUsernameOrPasswordPageElements" duration-ms="818" started-at="2018-10-03T12:32:33Z" finished-at="2018-10-03T12:32:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verified the 'Forgot Username/Password' Title . It is Displayed as - Forgot Username/Password<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyForgetUsernameOrPasswordPageElements -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.sentinel.test.SignUpTestSuite@2638011]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-10-03T12:32:33Z" finished-at="2018-10-03T12:32:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyErrorMessages status=SUCCESS method=SignUpTestSuite.verifyErrorMessages(java.lang.reflect.Method)[pri:2, instance:com.sentinel.test.SignUpTestSuite@2638011] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="verifyResendUserName()[pri:4, instance:com.sentinel.test.SignUpTestSuite@2638011]" name="verifyResendUserName" duration-ms="2914" started-at="2018-10-03T12:32:34Z" finished-at="2018-10-03T12:32:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResendUserName -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.sentinel.test.SignUpTestSuite@2638011]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-10-03T12:32:34Z" finished-at="2018-10-03T12:32:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyForgetUsernameOrPasswordPageElements status=SUCCESS method=SignUpTestSuite.verifyForgetUsernameOrPasswordPageElements()[pri:3, instance:com.sentinel.test.SignUpTestSuite@2638011] output=Verified the 'Forgot Username/Password' Title . It is Displayed as - Forgot Username/Password<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.sentinel.test.SignUpTestSuite@2638011]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-10-03T12:32:37Z" finished-at="2018-10-03T12:32:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyResendUserName status=SUCCESS method=SignUpTestSuite.verifyResendUserName()[pri:4, instance:com.sentinel.test.SignUpTestSuite@2638011] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.sentinel.test.SignUpTestSuite -->
+    </test> <!-- Login Page test Cases -->
+    <test name="Create facility Form Test Cases" duration-ms="1" started-at="2018-10-03T07:02:37Z" finished-at="2018-10-03T07:02:37Z">
+    </test> <!-- Create facility Form Test Cases -->
+    <test name="Verify Address Functionality Test Cases" duration-ms="0" started-at="2018-10-03T07:02:37Z" finished-at="2018-10-03T07:02:37Z">
+    </test> <!-- Verify Address Functionality Test Cases -->
+    <test name="Verify Contact Functionality Test Cases" duration-ms="0" started-at="2018-10-03T07:02:37Z" finished-at="2018-10-03T07:02:37Z">
+    </test> <!-- Verify Contact Functionality Test Cases -->
+    <test name="Verify Department Management Functionality Test Cases" duration-ms="0" started-at="2018-10-03T07:02:37Z" finished-at="2018-10-03T07:02:37Z">
+    </test> <!-- Verify Department Management Functionality Test Cases -->
+    <test name="Verify Create Corporate Test Cases" duration-ms="0" started-at="2018-10-03T07:02:37Z" finished-at="2018-10-03T07:02:37Z">
+      <class name="com.sentinel.test.CreateCorporateTestSuite">
+        <test-method status="PASS" signature="DriversetUp()[pri:0, instance:com.sentinel.test.CreateCorporateTestSuite@343570b7]" name="DriversetUp" is-config="true" duration-ms="10184" started-at="2018-10-03T12:32:23Z" finished-at="2018-10-03T12:32:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriversetUp -->
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:com.sentinel.test.CreateCorporateTestSuite@343570b7]" name="teardownTest" is-config="true" duration-ms="724" started-at="2018-10-03T12:32:37Z" finished-at="2018-10-03T12:32:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+      </class> <!-- com.sentinel.test.CreateCorporateTestSuite -->
+    </test> <!-- Verify Create Corporate Test Cases -->
+  </suite> <!-- Suite -->
+</testng-results>

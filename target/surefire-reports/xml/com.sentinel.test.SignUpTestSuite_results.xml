@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login Page test Cases"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.246">
+  <properties />
+  
+  
+            <testcase name="verifyResendUserName" time="2.914" classname="com.sentinel.test.SignUpTestSuite" />
+                <testcase name="verifySentinalSignUpPageLayout" time="0.512" classname="com.sentinel.test.SignUpTestSuite" />
+                <testcase name="verifyForgetUsernameOrPasswordPageElements" time="0.818" classname="com.sentinel.test.SignUpTestSuite" />
+                <testcase name="verifyErrorMessages" time="0.002" classname="com.sentinel.test.SignUpTestSuite" />
+      
+</testsuite>

@@ -1,0 +1,14 @@
+# Created at 2018-10-01T15:14:01.928
+java.lang.NullPointerException
+	at com.sentinel.listeners.ProjectListeners.onExecutionFinish(ProjectListeners.java:119)
+	at org.testng.TestNG.runExecutionListeners(TestNG.java:1150)
+	at org.testng.TestNG.run(TestNG.java:1112)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+

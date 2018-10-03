@@ -1,0 +1,48 @@
+[DEBUG] 2018-10-03 12:32:23.054 [main] AppTest - Project Path in Ide - E:\To_Move\sentinel\Sentinel\DynamicLog4jProject
+[DEBUG] 2018-10-03 12:32:26.147 [main] AppTest - STARTED CHROME BROWSER
+[DEBUG] 2018-10-03 12:32:33.226 [main] AppTest - Navigated to base URL - http://ec2-13-229-128-214.ap-southeast-1.compute.amazonaws.com/auth
+[DEBUG] 2018-10-03 12:32:33.226 [main] AppTest - 
+
+
+[DEBUG] 2018-10-03 12:32:33.227 [main] AppTest - -- SYSTEM INFORMATION --
+[DEBUG] 2018-10-03 12:32:33.227 [main] AppTest - Operating system Name - WINDOWS 10
+[DEBUG] 2018-10-03 12:32:33.227 [main] AppTest - Operating system version - 10.0
+[DEBUG] 2018-10-03 12:32:33.227 [main] AppTest - User working directory - E:\To_Move\sentinel\Sentinel\DynamicLog4jProject
+[DEBUG] 2018-10-03 12:32:33.227 [main] AppTest - Operating system architecture - amd64
+[DEBUG] 2018-10-03 12:32:33.227 [main] AppTest - JRE version number - 1.8.0_181
+[DEBUG] 2018-10-03 12:32:33.228 [main] AppTest - JRE vendor URL - http://java.oracle.com/
+[DEBUG] 2018-10-03 12:32:33.228 [main] AppTest - JRE vendor name - Oracle Corporation
+[DEBUG] 2018-10-03 12:32:33.228 [main] AppTest - Installation directory for Java Runtime Environment (JRE) - C:\Program Files\Java\jre1.8.0_181
+[DEBUG] 2018-10-03 12:32:33.228 [main] AppTest - Operating system Name - WINDOWS 10
+[DEBUG] 2018-10-03 12:32:33.228 [main] AppTest - Operating system version - 10.0
+[DEBUG] 2018-10-03 12:32:33.228 [main] AppTest - Testing Browser :- CHROME
+[DEBUG] 2018-10-03 12:32:33.229 [main] AppTest - 
+			
+ -- PROJECT LOGS -- 
+
+[DEBUG] 2018-10-03 12:32:33.246 [main] AppTest - -----------------------------------------------------------------------------------------
+[DEBUG] 2018-10-03 12:32:33.246 [main] AppTest - TEST CASE STARTED - VERIFYSENTINALSIGNUPPAGELAYOUT
+[DEBUG] 2018-10-03 12:32:33.246 [main] AppTest - -----------------------------------------------------------------------------------------
+[DEBUG] 2018-10-03 12:32:33.340 [main] AppTest - Verified Page Title..
+[DEBUG] 2018-10-03 12:32:33.754 [main] AppTest - Verified Page Favicon..
+[DEBUG] 2018-10-03 12:32:33.754 [main] AppTest - -----------------------------------------------------------------------------------------
+[DEBUG] 2018-10-03 12:32:33.756 [main] AppTest - -----------------------------------------------------------------------------------------
+[DEBUG] 2018-10-03 12:32:33.756 [main] AppTest - TEST CASE STARTED - VERIFYERRORMESSAGES
+[DEBUG] 2018-10-03 12:32:33.757 [main] AppTest - -----------------------------------------------------------------------------------------
+[DEBUG] 2018-10-03 12:32:33.758 [main] AppTest - -----------------------------------------------------------------------------------------
+[DEBUG] 2018-10-03 12:32:33.759 [main] AppTest - -----------------------------------------------------------------------------------------
+[DEBUG] 2018-10-03 12:32:33.759 [main] AppTest - TEST CASE STARTED - VERIFYFORGETUSERNAMEORPASSWORDPAGEELEMENTS
+[DEBUG] 2018-10-03 12:32:33.759 [main] AppTest - -----------------------------------------------------------------------------------------
+[DEBUG] 2018-10-03 12:32:34.576 [main] AppTest - Verified the 'Forgot Username/Password' Title . It is Displayed as - Forgot Username/Password
+[DEBUG] 2018-10-03 12:32:34.577 [main] AppTest - -----------------------------------------------------------------------------------------
+[DEBUG] 2018-10-03 12:32:34.577 [main] AppTest - -----------------------------------------------------------------------------------------
+[DEBUG] 2018-10-03 12:32:34.577 [main] AppTest - TEST CASE STARTED - VERIFYRESENDUSERNAME
+[DEBUG] 2018-10-03 12:32:34.577 [main] AppTest - -----------------------------------------------------------------------------------------
+[DEBUG] 2018-10-03 12:32:35.456 [main] AppTest - update pmn.tblcontact set email='sentinel_550154581@mailinator.com' where firstname='Atul'
+[DEBUG] 2018-10-03 12:32:36.300 [main] AppTest - Email Id updated in Db is - sentinel_550154581@mailinator.com
+[DEBUG] 2018-10-03 12:32:37.119 [main] AppTest - SELECT email FROM pmn.tblcontact where active=1 and firstname='Atul'
+[DEBUG] 2018-10-03 12:32:37.491 [main] AppTest - -----------------------------------------------------------------------------------------
+[DEBUG] 2018-10-03 12:32:38.491 [main] AppTest - Total test Cases - 4
+[DEBUG] 2018-10-03 12:32:38.491 [main] AppTest - Total test Cases passed - 4
+[DEBUG] 2018-10-03 12:32:38.491 [main] AppTest - Total test Cases failed - 0
+[DEBUG] 2018-10-03 12:32:38.492 [main] AppTest - Total test Cases skipped- 0

@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>E:\To_Move\sentinel\Sentinel\SentinelProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">6 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.sentinel.test.CreateCorporateTestSuite" hash-for-method="verifyFacilityCreateLayout">verifyFacilityCreateLayout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.sentinel.test.CreateCorporateTestSuite" hash-for-method="verifyFacilityCreateErrorMessages">verifyFacilityCreateErrorMessages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.sentinel.test.CreateCorporateTestSuite</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFacilityCreateLayout">
+                  </a> <!-- verifyFacilityCreateLayout -->
+                  <span class="method-name">verifyFacilityCreateLayout</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.sentinel.pages.CorporatePage.verifyPriorityOne(CorporatePage.java:515)
+	at com.sentinel.test.CreateCorporateTestSuite.verifyFacilityCreateLayout(CreateCorporateTestSuite.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Verifing All the page elements with position and default values.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sentinel.test.CreateCorporateTestSuite</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFacilityCreateErrorMessages">
+                  </a> <!-- verifyFacilityCreateErrorMessages -->
+                  <span class="method-name">verifyFacilityCreateErrorMessages</span>
+                  <em>
+(Verifing All the error messages.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\To_Move\sentinel\Sentinel\SentinelProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;3&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.sentinel.listeners.ProjectListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Login Page test Cases&quot; group-by-instances=&quot;true&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;exclude name=&quot;Sprint1&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sentinel.test.SignUpTestSuite&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Page test Cases --&gt;
+  &lt;test name=&quot;Create facility Form Test Cases&quot; group-by-instances=&quot;true&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;exclude name=&quot;Sprint2&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sentinel.test.CreateFacilityTestSuite&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create facility Form Test Cases --&gt;
+  &lt;test name=&quot;Verify Address Functionality Test Cases&quot; group-by-instances=&quot;true&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;exclude name=&quot;Sprint3&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sentinel.test.VerifyFacilityListingAndCreateAddressTestSuite&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Address Functionality Test Cases --&gt;
+  &lt;test name=&quot;Verify Contact Functionality Test Cases&quot; group-by-instances=&quot;true&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;exclude name=&quot;Sprint4&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sentinel.test.AddContactWithLoginFunctionalityTestSuite&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Contact Functionality Test Cases --&gt;
+  &lt;test name=&quot;Verify Department Management Functionality Test Cases&quot; group-by-instances=&quot;true&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;exclude name=&quot;Sprint5&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sentinel.test.DepartmentManagementTestSuite&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Department Management Functionality Test Cases --&gt;
+  &lt;test name=&quot;Verify Create Corporate Test Cases&quot; group-by-instances=&quot;true&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Sprint6&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sentinel.test.CreateCorporateTestSuite&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Create Corporate Test Cases --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Page test Cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Create facility Form Test Cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Address Functionality Test Cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Contact Functionality Test Cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Department Management Functionality Test Cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Create Corporate Test Cases (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Sprint6</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFacilityCreateErrorMessages</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFacilityCreateLayout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyFacilityCreateErrorMessages')
+data.setCell(0, 2, 'com.sentinel.test.CreateCorporateTestSuite')
+data.setCell(0, 3, 148254);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyFacilityCreateLayout')
+data.setCell(1, 2, 'com.sentinel.test.CreateCorporateTestSuite')
+data.setCell(1, 3, 19081);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyFacilityCreateErrorMessages</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Navigated to 'Facility' page.<br></span>
+                <span class="reporter-method-output">Navigated to 'Create Corporate' page.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyFacilityCreateLayout</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Navigated to 'Facility' page.<br></span>
+                <span class="reporter-method-output"><a href=file:/E:/To_Move/sentinel/Sentinel/SentinelProject/CustomizedReports/projectScreenshots/verifyFacilityCreateLayout_1.jpg> click to open screenshot of verifyFacilityCreateLayout</a><br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">37 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.sentinel.test.VerifyFacilityListingAndCreateAddressTestSuite</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyNewAddressFieldsWithDataBase</span>
+                <br/>
+                <span class="ignored-method-name">verifyFacilityPageLayout</span>
+                <br/>
+                <span class="ignored-method-name">verifyFacilityFilter</span>
+                <br/>
+                <span class="ignored-method-name">verifyAddressPageLayout</span>
+                <br/>
+                <span class="ignored-method-name">verifyNewAddressFieldsLayout</span>
+                <br/>
+                <span class="ignored-method-name">verifyNewAddressFieldsErrorMessages</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.sentinel.test.SignUpTestSuite</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyMaxLimitValidUsernameInvalidPassword</span>
+                <br/>
+                <span class="ignored-method-name">verifyOTPErrorMessagesAndInvalidOTPErrorMessages</span>
+                <br/>
+                <span class="ignored-method-name">verifyResetPasswordFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">verifyMaxLimitResendOTPS</span>
+                <br/>
+                <span class="ignored-method-name">verifyResetPasswordErrorMessages</span>
+                <br/>
+                <span class="ignored-method-name">verifyForgetUsernameOrPasswordPageElements</span>
+                <br/>
+                <span class="ignored-method-name">verifyResendUserName</span>
+                <br/>
+                <span class="ignored-method-name">verifyErrorMessages</span>
+                <br/>
+                <span class="ignored-method-name">verifyMaxLimitResetPasswordMail</span>
+                <br/>
+                <span class="ignored-method-name">verifySentinalSignUpPageLayout</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.sentinel.test.DepartmentManagementTestSuite</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyDepartmentManagementPageLayout</span>
+                <br/>
+                <span class="ignored-method-name">addAndVerifyFacilityDepartment</span>
+                <br/>
+                <span class="ignored-method-name">verifyErrorMessagesAndSearchFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">verifyNewlyAddedDepartment</span>
+                <br/>
+                <span class="ignored-method-name">verifyFacilityDepartmentLayout</span>
+                <br/>
+                <span class="ignored-method-name">addDepartmentToContact</span>
+                <br/>
+                <span class="ignored-method-name">verifyDefaultDepartmentAdminCreatedDepartment</span>
+                <br/>
+                <span class="ignored-method-name">verifyAdminDepartmentInacticateFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">verifyFacilityDepartmentInacticateFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">verifyNewDepartmentPageLayout</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.sentinel.test.CreateFacilityTestSuite</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyFacilityCreateLayout</span>
+                <br/>
+                <span class="ignored-method-name">verifyFacilityFormCreated</span>
+                <br/>
+                <span class="ignored-method-name">verifyFacilityCreateErrorMessages</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.sentinel.test.AddContactWithLoginFunctionalityTestSuite</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyEditContactPageLayout</span>
+                <br/>
+                <span class="ignored-method-name">verifyEmailGeneratedResetPasswordAndLinkExpired</span>
+                <br/>
+                <span class="ignored-method-name">verifyEditCreatedContactFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">verifyNewContactAddedvaluesInDataBase</span>
+                <br/>
+                <span class="ignored-method-name">verifyNewContactFieldsErrorMessages</span>
+                <br/>
+                <span class="ignored-method-name">verifyEditContactResendUserNameFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">verifyAddContactPageLayout</span>
+                <br/>
+                <span class="ignored-method-name">verifyNewContactFieldsLayout</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sentinel.test.CreateCorporateTestSuite</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">DriversetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">beofreClass</span>
+                <span class="method-start">10449 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyFacilityCreateLayout</span>
+                <span class="method-start">10458 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=verifyFacilityCreateLayout status=FAILURE method=CreateCorporateTestSuite.verifyFac...)</span>
+                <span class="method-start">31946 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyFacilityCreateErrorMessages</span>
+                <span class="method-start">31950 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=verifyFacilityCreateErrorMessages status=SUCCESS method=CreateCorporateTestSuite.ve...)</span>
+                <span class="method-start">180207 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">teardownTest</span>
+                <span class="method-start">180221 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

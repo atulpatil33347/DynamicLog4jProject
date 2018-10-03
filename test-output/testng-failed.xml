@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.sentinel.listeners.ProjectListeners"/>
+  </listeners>
+  <test name="Verify Create Corporate Test Cases(failed)">
+    <groups>
+      <run>
+        <include name="Sprint6"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.sentinel.test.CreateCorporateTestSuite">
+        <methods>
+          <include name="beofreClass"/>
+          <include name="DriversetUp"/>
+          <include name="afterTest"/>
+          <include name="teardownTest"/>
+          <include name="verifyFacilityCreateLayout"/>
+        </methods>
+      </class> <!-- com.sentinel.test.CreateCorporateTestSuite -->
+    </classes>
+  </test> <!-- Verify Create Corporate Test Cases(failed) -->
+</suite> <!-- Failed suite [Suite] -->

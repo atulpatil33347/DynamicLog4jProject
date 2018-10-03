@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.sentinel.listeners.ProjectListeners"/>
+  </listeners>
+  <test name="Login Page test Cases(failed)">
+    <groups>
+      <run>
+        <include name="Sprint1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.sentinel.test.SignUpTestSuite">
+        <methods>
+          <include name="beofreClass"/>
+          <include name="verifyForgetUsernameOrPasswordPageElements"/>
+          <include name="verifyResendUserName"/>
+          <include name="afterTest"/>
+          <include name="verifyErrorMessages" invocation-numbers="0"/>
+          <include name="verifySentinalSignUpPageLayout"/>
+        </methods>
+      </class> <!-- com.sentinel.test.SignUpTestSuite -->
+      <class name="com.sentinel.test.CreateCorporateTestSuite">
+        <methods>
+          <include name="DriversetUp"/>
+          <include name="teardownTest"/>
+        </methods>
+      </class> <!-- com.sentinel.test.CreateCorporateTestSuite -->
+    </classes>
+  </test> <!-- Login Page test Cases(failed) -->
+</suite> <!-- Failed suite [Suite] -->

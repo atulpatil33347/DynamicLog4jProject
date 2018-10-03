@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="37" total="39" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Navigated to 'Facility' page.<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=file:/E:/To_Move/sentinel/Sentinel/SentinelProject/CustomizedReports/projectScreenshots/verifyFacilityCreateLayout_1.jpg> click to open screenshot of verifyFacilityCreateLayout</a><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to 'Facility' page.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to 'Create Corporate' page.<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="169863" started-at="2018-10-01T05:52:00Z" finished-at="2018-10-01T05:54:50Z">
+    <groups>
+      <group name="Sprint6">
+        <method signature="CreateCorporateTestSuite.verifyFacilityCreateErrorMessages()[pri:2, instance:com.sentinel.test.CreateCorporateTestSuite@bccb269]" name="verifyFacilityCreateErrorMessages" class="com.sentinel.test.CreateCorporateTestSuite"/>
+        <method signature="CreateCorporateTestSuite.verifyFacilityCreateLayout()[pri:1, instance:com.sentinel.test.CreateCorporateTestSuite@bccb269]" name="verifyFacilityCreateLayout" class="com.sentinel.test.CreateCorporateTestSuite"/>
+      </group> <!-- Sprint6 -->
+    </groups>
+    <test name="Login Page test Cases" duration-ms="20" started-at="2018-10-01T05:52:00Z" finished-at="2018-10-01T05:52:00Z">
+    </test> <!-- Login Page test Cases -->
+    <test name="Create facility Form Test Cases" duration-ms="1" started-at="2018-10-01T05:52:00Z" finished-at="2018-10-01T05:52:00Z">
+    </test> <!-- Create facility Form Test Cases -->
+    <test name="Verify Address Functionality Test Cases" duration-ms="1" started-at="2018-10-01T05:52:00Z" finished-at="2018-10-01T05:52:00Z">
+    </test> <!-- Verify Address Functionality Test Cases -->
+    <test name="Verify Contact Functionality Test Cases" duration-ms="1" started-at="2018-10-01T05:52:00Z" finished-at="2018-10-01T05:52:00Z">
+    </test> <!-- Verify Contact Functionality Test Cases -->
+    <test name="Verify Department Management Functionality Test Cases" duration-ms="2" started-at="2018-10-01T05:52:00Z" finished-at="2018-10-01T05:52:00Z">
+    </test> <!-- Verify Department Management Functionality Test Cases -->
+    <test name="Verify Create Corporate Test Cases" duration-ms="169762" started-at="2018-10-01T05:52:00Z" finished-at="2018-10-01T05:54:50Z">
+      <class name="com.sentinel.test.CreateCorporateTestSuite">
+        <test-method status="PASS" signature="DriversetUp()[pri:0, instance:com.sentinel.test.CreateCorporateTestSuite@bccb269]" name="DriversetUp" is-config="true" duration-ms="10344" started-at="2018-10-01T11:21:50Z" finished-at="2018-10-01T11:22:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriversetUp -->
+        <test-method status="PASS" signature="beofreClass()[pri:0, instance:com.sentinel.test.CreateCorporateTestSuite@bccb269]" name="beofreClass" is-config="true" duration-ms="0" started-at="2018-10-01T11:22:00Z" finished-at="2018-10-01T11:22:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beofreClass -->
+        <test-method status="FAIL" signature="verifyFacilityCreateLayout()[pri:1, instance:com.sentinel.test.CreateCorporateTestSuite@bccb269]" name="verifyFacilityCreateLayout" duration-ms="19081" started-at="2018-10-01T11:22:00Z" description="Verifing All the page elements with position and default values." finished-at="2018-10-01T11:22:19Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.sentinel.pages.CorporatePage.verifyPriorityOne(CorporatePage.java:515)
+	at com.sentinel.test.CreateCorporateTestSuite.verifyFacilityCreateLayout(CreateCorporateTestSuite.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to 'Facility' page.<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href=file:/E:/To_Move/sentinel/Sentinel/SentinelProject/CustomizedReports/projectScreenshots/verifyFacilityCreateLayout_1.jpg> click to open screenshot of verifyFacilityCreateLayout</a><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyFacilityCreateLayout -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.sentinel.test.CreateCorporateTestSuite@bccb269]" name="afterTest" is-config="true" duration-ms="2" started-at="2018-10-01T11:22:22Z" finished-at="2018-10-01T11:22:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFacilityCreateLayout status=FAILURE method=CreateCorporateTestSuite.verifyFacilityCreateLayout()[pri:1, instance:com.sentinel.test.CreateCorporateTestSuite@bccb269] output=Navigated to 'Facility' page.<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="verifyFacilityCreateErrorMessages()[pri:2, instance:com.sentinel.test.CreateCorporateTestSuite@bccb269]" name="verifyFacilityCreateErrorMessages" duration-ms="148254" started-at="2018-10-01T11:22:22Z" description="Verifing All the error messages." finished-at="2018-10-01T11:24:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to 'Facility' page.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to 'Create Corporate' page.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyFacilityCreateErrorMessages -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.sentinel.test.CreateCorporateTestSuite@bccb269]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-10-01T11:24:50Z" finished-at="2018-10-01T11:24:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFacilityCreateErrorMessages status=SUCCESS method=CreateCorporateTestSuite.verifyFacilityCreateErrorMessages()[pri:2, instance:com.sentinel.test.CreateCorporateTestSuite@bccb269] output=Navigated to 'Facility' page.<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:com.sentinel.test.CreateCorporateTestSuite@bccb269]" name="teardownTest" is-config="true" duration-ms="717" started-at="2018-10-01T11:24:50Z" finished-at="2018-10-01T11:24:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+      </class> <!-- com.sentinel.test.CreateCorporateTestSuite -->
+    </test> <!-- Verify Create Corporate Test Cases -->
+  </suite> <!-- Suite -->
+</testng-results>
